@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="dist/output.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+  </head>
+  <body class="bg-bgcolor">
+    <!-- HEADER START -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-bold text-lg block py-6 lg:text-2xl">Brilli<span class="text-sky-400">ahib</span>.</a>
+          </div>
+
+          <div class="flex items-center px-4">
+            <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+              <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+            </button>
+
+            <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a href="index.html" class="text-base text-slate-700 py-2 mx-8 group-hover:text-sky-400 flex lg:font-semibold">Home</a>
+                </li>
+                <li class="group">
+                  <a href="about.html" class="text-base text-slate-700 py-2 mx-8 group-hover:text-sky-400 flex lg:font-semibold">About</a>
+                </li>
+                <li class="group">
+                  <a href="project.html" class="text-base text-slate-700 py-2 mx-8 group-hover:text-sky-400 flex lg:font-semibold">Project</a>
+                </li>
+                <li class="group">
+                  <a href="contact.html" class="text-base text-slate-700 py-2 mx-8 group-hover:text-sky-400 flex lg:font-semibold">Blog</a>
+                </li>
+
+                <li class="group">
+                  <a href="#home" class="text-base text-dark py-2 mx-8 group-hover:text-sky-400 flex"><i class="bx bxl-github text-2xl lg:text-2xl"></i></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- HEADER END -->
+    <section id="home" class="pt-52 lg:pt-56 w-full h-full bg-cover bg-center" style="background-image: url(img/bg-tailwind.jpg)">
+      <div class="container">
+        <div class="flex flex-wrap justify-center items-center">
+          <div class="w-full text-center self-center px-4">
+            <div class="max-w-xl mx-auto text-center justify-center lg:max-w-4xl">
+              <h1 class="text-slate-900 font-extrabold text-2xl lg:text-6xl">Learn to build attractive modern web from beginners with <span class="text-sky-400">me</span>.</h1>
+              <p class="mb-10 text-base mt-6 text-slate-600 lg:text-lg lg:mt-10">
+                A student from Diponegoro University who has the determination to study in the field of technology, especially in the world of programming with his abilities. Scroll down to know me more!
+              </p>
+            </div>
+
+            <div class="flex self-center justify-center text-center pb-10 lg:mt-14 lg:flex lg:justify-center">
+              <a
+                href="https://drive.google.com/file/d/1B4p--g6ZQgFT-RnPwsIj7LKaSQEDm446/view?usp=sharing"
+                class="text-sm py-3 px-6 bg-black text-white rounded-lg lg:py-4 lg:px-8 lg:font-semibold lg:text-base mr-2 hover:bg-sky-400 hover:scale-105 transition duration-300 ease-in-out"
+                >Download CV</a
+              >
+              <a href="https://www.linkedin.com/in/muhammadahibibrilli/" class="text-base py-3 px-6 border-2 border-slate-900 text-slate-900 rounded-lg ml-2 lg:font-semibold lg:text-base lg:px-8 lg:py-4"
+                >Know Me <i class="bx bx-link-external lg:ml-2"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="lg:h-screen pt-10 lg:pt-56">
+      <div class="container">
+        <div class="px-4 flex flex-wrap">
+          <div class="w-full px-4 lg:w-1/2">
+            <img class="w-[300px] lg:ml-28" src="img/brilly.png" alt="" />
+          </div>
+
+          <div class="w-full px-4 lg:w-1/2 pt-10">
+            <h1 class="text-slate-900 font-extrabold text-2xl lg:text-4xl">"Creating an attractive modern website is my daily part of my spare time."</h1>
+            <p class="mb-10 text-base mt-4 text-slate-600 lg:text-xl lg:mt-10">
+              My consistent and committed habit of exploring the world of technology has brought me closer to programming languages. On this journey, I continue to learn, practice and develop my skills to take on new challenges in this
+              field.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER START -->
+    <footer class="bg-white pt-24 pb-12">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-12 lg:w-1/4">
+            <h1 class="font-semibold text-base text-slate-900 mb-4">Contact</h1>
+            <p class="text-slate-700 text-sm mb-3"><i class="bx bxs-user"></i> Muhammad Ahib Ibrilli</p>
+            <p class="text-slate-700 text-sm mb-3"><i class="bx bxs-envelope"></i> brilliahib21@gmail.com</p>
+            <p class="text-slate-700 text-sm mb-3"><i class="bx bxs-location-plus"></i> Semarang, Jawa Tengah, Indonesia</p>
+          </div>
+
+          <div class="px-4 mb-12 lg:w-1/4 w-1/2">
+            <h1 class="font-semibold text-slate-700 text-base mb-4">Links</h1>
+            <ul class="text-slate-700 text-sm">
+              <li>
+                <a href="index.html" class="inline-block hover:text-sky-400 mb-3">Home</a>
+              </li>
+              <li>
+                <a href="about.html" class="inline-block hover:text-sky-400 mb-3">About</a>
+              </li>
+              <li>
+                <a href="project.html" class="inline-block hover:text-sky-400 mb-3">Project</a>
+              </li>
+              <li>
+                <a href="contact.html" class="inline-block hover:text-sky-400 mb-3">Blog</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="px-4 mb-12 lg:w-1/4 w-1/2">
+            <h1 class="font-semibold text-slate-700 text-base mb-4">Skills</h1>
+            <p class="text-slate-700 text-sm mb-3">HTML</p>
+            <p class="text-slate-700 text-sm mb-3">CSS</p>
+            <p class="text-slate-700 text-sm mb-3">Javascript</p>
+            <p class="text-slate-700 text-sm mb-3">Tailwind CSS</p>
+          </div>
+
+          <div class="w-full px-4 mb-12 lg:w-1/4">
+            <h1 class="font-semibold text-slate-700 text-base mb-4">Follow Me</h1>
+            <ul class="text-slate-700 text-sm flex">
+              <li>
+                <a href="https://www.instagram.com/brilliahib69/" class="inline-block hover:text-sky-400 mb-3"><i class="bx bxl-instagram text-xl mr-3 lg:text-2xl"></i></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/muhammad-ahib-ibrilli-219421255/" class="inline-block hover:text-sky-400 mb-3"><i class="bx bxl-linkedin text-xl mr-3 lg:text-2xl"></i></a>
+              </li>
+              <li>
+                <a href="https://github.com/Brilliahib" class="inline-block hover:text-sky-400 mb-3"><i class="bx bxl-github text-xl mr-3 lg:text-2xl"></i></a>
+              </li>
+              <li>
+                <a href="https://www.figma.com/@brilly" class="inline-block hover:text-sky-400 mb-3"><i class="bx bxl-figma text-xl lg:text-2xl"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="w-full pt-10 border-t border-slate-200 justify-center text-center px-8 lg:px-4">
+          <p class="text-sm">Copyright©2023 All rights reserved | Made by <span class="text-sky-400 font-semibold">Brilliahib</span></p>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+    <script src="dist/js/script.js"></script>
+  </body>
+</html>

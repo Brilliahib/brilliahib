@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/output.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+  </head>
+  <body>
+    <!-- HEADER START -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-bold text-lg block py-6 lg:text-2xl">Brilli<span class="text-sky-400">ahib</span>.</a>
+          </div>
+
+          <div class="flex items-center px-4">
+            <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+              <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+            </button>
+
+            <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a href="index.html" class="text-base text-slate-700 py-2 mx-8 group-hover:text-sky-400 flex lg:font-semibold">Home</a>
+                </li>
+                <li class="group">
+                  <a href="about.html" class="text-base text-slate-700 py-2 mx-8 group-hover:text-sky-400 flex lg:font-semibold">About</a>
+                </li>
+                <li class="group">
+                  <a href="project.html" class="text-base text-slate-700 py-2 mx-8 group-hover:text-sky-400 flex lg:font-semibold">Project</a>
+                </li>
+                <li class="group">
+                  <a href="contact.html" class="text-base text-slate-700 py-2 mx-8 group-hover:text-sky-400 flex lg:font-semibold">Blog</a>
+                </li>
+
+                <li class="group">
+                  <a href="#home" class="text-base text-dark py-2 mx-8 group-hover:text-sky-400 flex"><i class="bx bxl-github text-2xl lg:text-2xl"></i></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- HEADER END -->
+
+    <section id="contact" class="h-screen bg-cover bg-center w-full" style="background-image: url(img/bg-blog.jpg)">
+      <div class="container">
+        <div class="flex flex-wrap justify-center items-center h-screen">
+          <h1 id="multiText" class="text-xl font-extrabold text-black lg:text-6xl"></h1>
+        </div>
+      </div>
+    </section>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="dist/js/script.js"></script>
+  </body>
+</html>

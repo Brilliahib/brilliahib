@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/output.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+  </head>
+  <body class="bg-bgcolor">
+    <!-- HEADER START -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-bold text-lg block py-6 lg:text-2xl">Brilli<span class="text-sky-400">ahib</span>.</a>
+          </div>
+
+          <div class="flex items-center px-4">
+            <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+              <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+            </button>
+
+            <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a href="index.html" class="text-base text-slate-700 py-2 mx-8 group-hover:text-sky-400 flex lg:font-semibold">Home</a>
+                </li>
+                <li class="group">
+                  <a href="about.html" class="text-base text-slate-700 py-2 mx-8 group-hover:text-sky-400 flex lg:font-semibold">About</a>
+                </li>
+                <li class="group">
+                  <a href="project.html" class="text-base text-slate-700 py-2 mx-8 group-hover:text-sky-400 flex lg:font-semibold">Project</a>
+                </li>
+                <li class="group">
+                  <a href="contact.html" class="text-base text-slate-700 py-2 mx-8 group-hover:text-sky-400 flex lg:font-semibold">Blog</a>
+                </li>
+
+                <li class="group">
+                  <a href="#home" class="text-base text-dark py-2 mx-8 group-hover:text-sky-400 flex"><i class="bx bxl-github text-2xl lg:text-2xl"></i></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- SECTION ABOUT START -->
+    <section id="about" class="pt-36 bg-cover h-full w-full lg:bg-center" style="background-image: url(img/bg-tailwind.jpg)">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center justify-center mb-16 lg:max-w-2xl">
+            <h1 class="text-sky-400 font-bold mb-1 lg:text-xl lg:mb-6">About</h1>
+            <h1 class="font-extrabold text-2xl lg:text-6xl">Let's talk about this to know me more</h1>
+            <p class="mb-10 text-base mt-4 text-slate-600 lg:mt-8">I am committed to learning and growing in technology, and look forward to making a positive contribution to programming and web development.</p>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap px-4 mt-10">
+          <div class="w-full lg:w-1/2 self-center">
+            <h1 class="text-base lg:text-base">Hello,</h1>
+            <h2 class="block font-bold text-xl mb-4 lg:text-4xl">Muhammad Ahib Ibrilli</h2>
+            <p class="mb-10 lg:text-base">
+              A computer engineering student who keeps abreast of technological developments with a high sense of leadership, time management, and sociality. Good time management skills are very important to me. I am able to manage my
+              schedule efficiently, identify priorities and optimize my productivity. In addition, I have a good social nature and enjoy working in a team. I believe that close collaboration and cooperation between team members is very
+              important in achieving the success of the event. With a combination of leadership skills, good time management and strong communication skills, I believe that I can be a valuable asset to teams and organizations.
+            </p>
+            <a href="https://drive.google.com/file/d/1B4p--g6ZQgFT-RnPwsIj7LKaSQEDm446/view?usp=sharing" class="bg-black px-6 py-3 rounded-full text-white shadow-lg lg:py-3 lg:px-8 lg:text-base">Download CV</a>
+          </div>
+
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="relative mt-10 lg:right-0">
+              <img class="max-w-full mx-auto lg:right-0" width="300px" src="img/brilly.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION ABOUT END -->
+
+    <section id="skills" class="pt-36">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h1 class="text-2xl font-bold lg:text-5xl">Skills<span class="text-sky-400 text-4xl">.</span></h1>
+          </div>
+
+          <div class="w-full px-4 flex flex-wrap">
+            <div class="mb-12 p-4 justify-center lg:w-1/4">
+              <img class="w-14 h-14 lg:w-20 lg:h-20" src="img/skills/img-html.png" alt="" />
+              <h1 class="font-semibold text-xl mt-6 lg:text-xl">HTML</h1>
+              <p class="text-slate-500 text-xs lg:text-base">HTML is a programming language used to create the structure and appearance of web pages.</p>
+            </div>
+
+            <div class="mb-12 p-4 justify-center lg:w-1/4">
+              <img class="w-14 h-14 lg:w-20 lg:h-20" src="img/skills/tailwind.png" alt="" />
+              <h1 class="font-semibold text-xl mt-6 lg:text-xl">Tailwind CSS</h1>
+              <p class="text-slate-500 text-xs lg:text-base">Tailwind CSS is a utility-first CSS framework that accelerates web interface development.</p>
+            </div>
+
+            <div class="mb-12 p-4 justify-center lg:w-1/4">
+              <img class="w-14 h-14 lg:w-20 lg:h-20" src="img/skills/img-js.png" alt="" />
+              <h1 class="font-semibold text-xl mt-6 lg:text-xl">Javascript</h1>
+              <p class="text-slate-500 text-xs lg:text-base">JavaScript is a high-level programming language used to develop interactive and dynamic web applications.</p>
+            </div>
+
+            <div class="mb-12 p-4 justify-center lg:w-1/4">
+              <img class="w-14 h-14 lg:w-20 lg:h-20" src="img/skills/img-bootstrap.png" alt="" />
+              <h1 class="font-semibold text-xl mt-6 lg:text-xl">Bootstrap</h1>
+              <p class="text-slate-500 text-xs lg:text-base">Bootstrap is a front-end framework used to quickly develop the look and functionality of a website.</p>
+            </div>
+
+            <div class="mb-12 p-4 justify-center lg:w-1/4">
+              <img class="w-14 h-14 lg:w-20 lg:h-20" src="img/skills/nodejs.png" alt="" />
+              <h1 class="font-semibold text-xl mt-6 lg:text-xl">Node JS</h1>
+              <p class="text-slate-500 text-xs lg:text-base">Node.js is a JavaScript-based runtime environment that is used to run JavaScript code on the server side.</p>
+            </div>
+
+            <div class="mb-12 p-4 justify-center lg:w-1/4">
+              <img class="w-14 h-14 lg:w-20 lg:h-20" src="img/skills/git.png" alt="" />
+              <h1 class="font-semibold text-xl mt-6 lg:text-xl">Git</h1>
+              <p class="text-slate-500 text-xs lg:text-base">Git is a distributed version control system used to manage and track changes to source code in software development.</p>
+            </div>
+
+            <div class="mb-12 p-4 justify-center lg:w-1/4">
+              <img class="w-14 h-14 lg:w-20 lg:h-20" src="img/skills/figma.png" alt="" />
+              <h1 class="font-semibold text-xl mt-6 lg:text-xl">Figma</h1>
+              <p class="text-slate-500 text-xs lg:text-base">Figma is a web design tool for collaboration and interface prototyping.</p>
+            </div>
+
+            <div class="mb-12 p-4 justify-center lg:w-1/4">
+              <img class="w-14 h-14 lg:w-20 lg:h-20" src="img/skills/vsc.png" alt="" />
+              <h1 class="font-semibold text-xl mt-6 lg:text-xl">Visual Studio Code</h1>
+              <p class="text-slate-500 text-xs lg:text-base">very popular open source text editor developed by Microsoft.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER START -->
+    <footer class="bg-white pt-24 pb-12">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-12 lg:w-1/4">
+            <h1 class="font-semibold text-base text-slate-900 mb-4">Contact</h1>
+            <p class="text-slate-700 text-sm mb-3"><i class="bx bxs-user"></i> Muhammad Ahib Ibrilli</p>
+            <p class="text-slate-700 text-sm mb-3"><i class="bx bxs-envelope"></i> brilliahib21@gmail.com</p>
+            <p class="text-slate-700 text-sm mb-3"><i class="bx bxs-location-plus"></i> Semarang, Jawa Tengah, Indonesia</p>
+          </div>
+
+          <div class="px-4 mb-12 lg:w-1/4 w-1/2">
+            <h1 class="font-semibold text-slate-700 text-base mb-4">Links</h1>
+            <ul class="text-slate-700 text-sm">
+              <li>
+                <a href="index.html" class="inline-block hover:text-sky-400 mb-3">Home</a>
+              </li>
+              <li>
+                <a href="about.html" class="inline-block hover:text-sky-400 mb-3">About</a>
+              </li>
+              <li>
+                <a href="project.html" class="inline-block hover:text-sky-400 mb-3">Project</a>
+              </li>
+              <li>
+                <a href="contact.html" class="inline-block hover:text-sky-400 mb-3">Blog</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="px-4 mb-12 lg:w-1/4 w-1/2">
+            <h1 class="font-semibold text-slate-700 text-base mb-4">Skills</h1>
+            <p class="text-slate-700 text-sm mb-3">HTML</p>
+            <p class="text-slate-700 text-sm mb-3">CSS</p>
+            <p class="text-slate-700 text-sm mb-3">Javascript</p>
+            <p class="text-slate-700 text-sm mb-3">Tailwind CSS</p>
+          </div>
+
+          <div class="w-full px-4 mb-12 lg:w-1/4">
+            <h1 class="font-semibold text-slate-700 text-base mb-4">Follow Me</h1>
+            <ul class="text-slate-700 text-sm flex">
+              <li>
+                <a href="https://www.instagram.com/brilliahib69/" class="inline-block hover:text-sky-400 mb-3"><i class="bx bxl-instagram text-xl mr-3 lg:text-2xl"></i></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/muhammad-ahib-ibrilli-219421255/" class="inline-block hover:text-sky-400 mb-3"><i class="bx bxl-linkedin text-xl mr-3 lg:text-2xl"></i></a>
+              </li>
+              <li>
+                <a href="https://github.com/Brilliahib" class="inline-block hover:text-sky-400 mb-3"><i class="bx bxl-github text-xl mr-3 lg:text-2xl"></i></a>
+              </li>
+              <li>
+                <a href="https://www.figma.com/@brilly" class="inline-block hover:text-sky-400 mb-3"><i class="bx bxl-figma text-xl lg:text-2xl"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="w-full pt-10 border-t border-slate-200 justify-center text-center px-8 lg:px-4">
+          <p class="text-sm">Copyright©2023 All rights reserved | Made by <span class="text-sky-400 font-semibold">Brilliahib</span></p>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <script src="dist/js/script.js"></script>
+  </body>
+</html>
