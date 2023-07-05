@@ -26,3 +26,5 @@ var typingEffect = new Typed("#multiText", {
   backSpeed: 100,
   backDelay: 1500,
 });
+
+// DARKMODE
