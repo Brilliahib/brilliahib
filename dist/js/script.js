@@ -27,4 +27,17 @@ var typingEffect = new Typed("#multiText", {
   backDelay: 1500,
 });
 
-// DARKMODE
+// SHOW MORE AND LESS
+function showMoreCards() {
+  var hiddenCards = document.querySelectorAll(".card.hidden");
+
+  hiddenCards.forEach(function (card) {
+    card.classList.remove("hidden");
+  });
+
+  var showMoreButton = document.getElementById("showMoreButton");
+  showMoreButton.style.display = "none";
+
+  var showLessButton = document.getElementById("showLessButton");
+  showLessButton.style.display = "block";
+}
