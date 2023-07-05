@@ -10,37 +10,37 @@
   </head>
   <body>
     <!-- HEADER START -->
-    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+    <header class="absolute left-0 top-0 z-10 flex w-full items-center bg-transparent">
       <div class="container">
-        <div class="flex items-center justify-between relative">
+        <div class="relative flex items-center justify-between">
           <div class="px-4">
-            <a href="#home" class="font-bold text-lg block py-6 lg:text-2xl">Brilli<span class="text-sky-400">ahib</span>.</a>
+            <a href="#home" class="block py-6 text-lg font-bold lg:text-2xl">Brilli<span class="text-sky-400">ahib</span>.</a>
           </div>
 
           <div class="flex items-center px-4">
-            <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
-              <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+            <button id="hamburger" name="hamburger" type="button" class="absolute right-4 block lg:hidden">
+              <span class="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
               <span class="hamburger-line transition duration-300 ease-in-out"></span>
-              <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+              <span class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
             </button>
 
-            <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+            <nav id="nav-menu" class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none">
               <ul class="block lg:flex">
                 <li class="group">
-                  <a href="index.html" class="text-base text-slate-700 py-2 mx-8 group-hover:text-sky-400 flex lg:font-semibold">Home</a>
+                  <a href="index.html" class="mx-8 flex py-2 text-base text-slate-700 group-hover:text-sky-400 lg:font-semibold">Home</a>
                 </li>
                 <li class="group">
-                  <a href="about.html" class="text-base text-slate-700 py-2 mx-8 group-hover:text-sky-400 flex lg:font-semibold">About</a>
+                  <a href="about.html" class="mx-8 flex py-2 text-base text-slate-700 group-hover:text-sky-400 lg:font-semibold">About</a>
                 </li>
                 <li class="group">
-                  <a href="project.html" class="text-base text-slate-700 py-2 mx-8 group-hover:text-sky-400 flex lg:font-semibold">Project</a>
+                  <a href="project.html" class="mx-8 flex py-2 text-base text-slate-700 group-hover:text-sky-400 lg:font-semibold">Project</a>
                 </li>
                 <li class="group">
-                  <a href="contact.html" class="text-base text-slate-700 py-2 mx-8 group-hover:text-sky-400 flex lg:font-semibold">Blog</a>
+                  <a href="contact.html" class="mx-8 flex py-2 text-base text-slate-700 group-hover:text-sky-400 lg:font-semibold">Blog</a>
                 </li>
 
                 <li class="group">
-                  <a href="#home" class="text-base text-dark py-2 mx-8 group-hover:text-sky-400 flex"><i class="bx bxl-github text-2xl lg:text-2xl"></i></a>
+                  <a href="#home" class="text-dark mx-8 flex py-2 text-base group-hover:text-sky-400"><i class="bx bxl-github text-2xl lg:text-2xl"></i></a>
                 </li>
               </ul>
             </nav>
@@ -50,9 +50,9 @@
     </header>
     <!-- HEADER END -->
 
-    <section id="contact" class="h-screen bg-cover bg-center w-full" style="background-image: url(img/bg-blog.jpg)">
+    <section id="contact" class="h-screen w-full bg-cover bg-center" style="background-image: url(img/bg-blog.jpg)">
       <div class="container">
-        <div class="flex flex-wrap justify-center items-center h-screen">
+        <div class="flex h-screen flex-wrap items-center justify-center">
           <h1 id="multiText" class="text-xl font-extrabold text-black lg:text-6xl"></h1>
         </div>
       </div>
